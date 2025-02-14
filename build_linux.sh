@@ -36,7 +36,7 @@ echo "Installing Pip Requirements"
 cd ~/OpenEFT
 pip3 install -r requirements.txt
 
-python manage.py migrate
+python3 manage.py migrate
 
 echo "OpenEFT build complete. Run the app by typing 'python3 openeft.py'"
 cd ~/OpenEFT
